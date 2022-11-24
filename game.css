@@ -1,0 +1,35 @@
+#door {
+    width: 400px;
+    height: 400px;
+}
+#rightroom {
+    width: 400px;
+    height: 400px;
+}
+#leftroom {
+    width: 400px;
+    height: 400px;
+}
+.backroom {
+    width: 400px;
+    height: 400px;
+}
+
+
+#stuff{
+    align-items: center;
+}
+
+#thepick {
+    width: 80px;
+    /* visibility: hidden; */
+    display: none;
+}
+#thenote {
+    width: 80px;
+    display: none;
+}
+#thekey {
+    width: 80px;
+    display: none;
+}
