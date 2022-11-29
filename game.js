@@ -2,7 +2,6 @@
 
 // window.localStorage.clear();
 
-
 let isPickpicked = false;
 let noteGet = false;
 let keyGet = false;
@@ -111,6 +110,7 @@ door.addEventListener("click", function(){
         door.src ="gameimages/doornolock.png"
         alert("You escaped");
         window.localStorage.keyGet = true;
+        window.localStorage.clear();
     }
     else {
         alert("You can't open the door. You need to find a key");
